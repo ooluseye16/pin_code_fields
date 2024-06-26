@@ -800,7 +800,7 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
           onFieldSubmitted: widget.onSubmitted,
           onEditingComplete: widget.onEditingComplete,
           enableInteractiveSelection: false,
-          showCursor: false,
+          showCursor: widget.showCursor,
           // using same as background color so tha it can blend into the view
           cursorWidth: 0.01,
           decoration: InputDecoration(
